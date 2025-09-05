@@ -37,6 +37,24 @@ export default function Search() {
       <input type="submit" value="Search" />
     </form>
   );
+ let credit = (
+    <p>
+      Coded by Erica Mbiti,&nbsp;
+      <a
+        href="https://github.com/EricaMbiti/weather-react-homework"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        GitHub
+      </a>
+    </p>
+  );
+
+
+
+
+
+
 
   if (loaded) {
     return (
@@ -47,10 +65,14 @@ export default function Search() {
           <li> Humidity:{weather.humidity}%</li>
           <li>Wind: {weather.wind}km/h</li>
         </ul>
+        {credit}
       </div>
     );
 
-  } else return form;
-
-
+  } else {return( 
+    <div>
+{form}
+{credit} </div>
+  );
+  }
 }
