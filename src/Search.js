@@ -54,7 +54,10 @@ export default function Search() {
       </div>
     );
 
-  } else return form;
+  }<p>
+    Coded by Erica Mbiti,To view source code <a href="https://github.com/EricaMbiti/weather-react-homework">Github</a>  
+</p>
+   
 
 
 }
