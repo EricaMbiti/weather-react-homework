@@ -47,17 +47,10 @@ export default function Search() {
           <li> Humidity:{weather.humidity}%</li>
           <li>Wind: {weather.wind}km/h</li>
         </ul>
-<p>
-    Coded by Erica Mbiti,To view source code <a href="https://github.com/EricaMbiti/weather-react-homework">Github</a>  
-</p>
-
       </div>
     );
 
-  }<p>
-    Coded by Erica Mbiti,To view source code <a href="https://github.com/EricaMbiti/weather-react-homework">Github</a>  
-</p>
-   
+  } else return form;
 
 
 }
